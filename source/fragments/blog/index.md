@@ -3,6 +3,7 @@ template: blogpage.html
 title: "| Blog" 
 appendToTarget: true
 activeHeaderItem: 2
-alwaysBuild: true
-blogPageIndex: 1
+collection:
+    filterFn: blogPagesArticlesFilter
+    articlesPerPage: 2
 -->

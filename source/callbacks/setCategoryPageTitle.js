@@ -1,3 +1,3 @@
 module.exports = ({ $tag, asset }) => {
-    $tag.prepend(`${asset.categoryItem.category} `);
+    $tag.prepend(`${asset.collection.item.category} `);
 };
