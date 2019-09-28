@@ -1,6 +1,8 @@
 /**
  * Return a subset of articles for each blog page
- * and name each page using the iterator's index value.
+ * and name each page, except for the 1st page,
+ * which should be named index.html, using "page"
+ * + the iterator's index value.
  */
 module.exports = ({ collection, siteMetadata }) => {
     const totalPages =
