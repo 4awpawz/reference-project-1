@@ -1,5 +1,5 @@
 module.exports = ({ $tag, asset }) => {
-    asset.collection.item.forEach(article => $tag.append(/* html */`
+    asset.collection.data.forEach(article => $tag.append(/* html */`
         <li class="blog__articles-list-item">
             <article class="blog__article">
                 <section class="article-image article-image-container">

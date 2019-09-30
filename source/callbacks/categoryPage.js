@@ -1,5 +1,5 @@
 module.exports = ({ $tag, asset, site }) => {
-    asset.collection.item.related.forEach(relatedArticle => {
+    asset.collection.data.related.forEach(relatedArticle => {
         const article = site.frags.find(frag => frag.url === relatedArticle.url);
         $tag.append(/* html */`
             <li class="category__list-item">
