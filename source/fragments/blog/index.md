@@ -1,5 +1,5 @@
 <!--
-template: blogpage.html
+template: blogpage
 title: "| Blog" 
 appendToTarget: true
 activeHeaderItem: 2
