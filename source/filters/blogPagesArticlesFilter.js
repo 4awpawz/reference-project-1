@@ -12,7 +12,7 @@ module.exports = ({ collection, site }) => {
         const start = collection.articlesPerPage * i;
         const end = start + collection.articlesPerPage;
         pages.push({
-            pageName: i === 0 && "index.html" || "page" + (i + 1),
+            pageName: i === 0 && "index" || "page" + (i + 1),
             data: site.articlesCatalog.slice(start, end)
         });
     }
